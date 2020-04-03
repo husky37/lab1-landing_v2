@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    background-color: black;
+    min-width: 1438px;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1250px;
+    height: 83px;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+.logo, .button, .header_wrapper__item a, .header_wrapper__phone {
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+}
+
+.mark_words {
+    color: #E3B873;
+}
+
+.logo {
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.button {
+    color: white;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    font-size: 11px;
+    line-height: 15px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-transform: uppercase;
+}
+
+.button-header {
+    width: 161px;
+    height: 37px;
+    font-style: italic;
+}
+
+.header_wrapper__list {
+    list-style: none;
+    display: flex;
+    font-family: Arial;
+}
+
+.header_wrapper__list__item {
+    margin-right: 47px;
+}
+.header_wrapper__list__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.header_wrapper__phone {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+/* ------- main container ------- */
+
+.section-top {
+    min-width: 1438px;
+    background-image: url('../img/image1.jpg');
+    height: 707px;
+    position: relative;
+}
+
+.section-top__wrapper {
+    padding-top: 190px;
+    padding-left: 134px;
+    width: 530px;
+    position: relative;
+    z-index: 1;
+}
+
+.section-top__background {
+    position: absolute;
+    background-color: #00000091;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.section-top__wrapper h1 {
+    margin: 0;
+    font-family: 'Yeseva One', cursive, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.section-top__wrapper p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.button-cost {
+    font-style: italic;
+    width: 207px;
+    height: 51px;
+}
+
+.button-clear {
+    background-color: rgba(0, 0, 0, 0.0);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-style: italic;
+    width: 207px;
+    height: 51px;
+    margin-left: 20px;
+}
